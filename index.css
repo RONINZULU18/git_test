@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    background-color: #1F2937;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 150px;
+}
+
+#flex-table {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 150px;
+}
+
+.head-item {
+    flex: auto;
+    width: 360px;
+    margin-top: 100px;
+}
+
+.links {
+    text-decoration: none;
+    display: block;
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#head-pic {
+    display: inline-block;
+    width: 400px;
+    height: 230px
+}
+
+#butt {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 6px;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    margin-top: 10px;
+}
+
+#butt2 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 6px;
+    width: 120px;
+    height: 30px;
+    border: 2px solid #E5E7EB;
+    margin-top: 10px;
+}
+
+#first-body {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 150px;
+}
+
+#second-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+#inner-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.boxes {
+    width: 30px;
+    height: 135px;
+    margin-top: 50px;
+    border: 5px solid #3882F6;
+    border-radius: 13px;
+    flex: auto;
+}
+
+.box-text {
+    width: 30px;
+    height: 25px;
+    margin-top: 5px;
+    flex: auto;
+    font-size: 15px;
+    color: #1F2937;
+}
+
+#second-body {
+    background-color: #E5E7EB;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#quote-box {
+    display: flex;
+}
+
+#quote-text {
+    font-size: 33px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    flex: auto;
+}
+
+#third-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#sign-box {
+    background-color: #3882F6;
+    border-radius: 10px;
+    flex: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#footer {
+    background-color: hsl(215, 28%, 17%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
